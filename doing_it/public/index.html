@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <meta charset="utf-8" Unicode="U+00A9, UTF-8: C2 A9">
+    <meta charset="utf-8" Unicode="U+00A9, UTF-8: C2 A9" Unicode="U+2671 UTF-8: E2 99 B1LOL">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light|Short+Stack|Walter+Turncoat" rel="stylesheet">
     <title>All Thing Math.us</title>
@@ -17,6 +17,7 @@
         <a href="#cart">My Cart</a>
         <a href="#logOut">Log Out</a>
     </div>
+<!-- HEADER AND TITLE AND SIDE PICTURES DIV -->
     <div>
         <table>
             <td id="myMirrorStoreHeader">
@@ -29,12 +30,11 @@
                 <img src="images/rightSideLogo.png" alt="rightSideLogo" id="rightSideLogo" />
             </td>
         </table>
+<!-- END OF OPENING HEADER BOX -->
         <p>Some content here..blah blitty blah.....</p>
     </div>  
-
-<!-- END OF OPENING HEADER BOX -->
     <p>
-        This is some text. You can't see it because it's not there yet...
+        This is some text. You can't see it because it's not here yet...
         <br> 
         <img src="./images/dreamcatcher.png" 
                 id="dreamcatcher1"
@@ -43,10 +43,13 @@
                 height="20%" 
                 style="vertical-align:bottom"> 
         <br>
-        This is even more text.
+        This is even more text.... IF YOU CAN BELIEVE IT....
+        <br> 
+        <span style="text-decoration: underline">and</span> 
+        from a math teacher too! CRAZEE  SKILLZ! ♱
     </p>
     <div>
-        <table id="landingTable">
+        <table id="landingTable1">
             <tr>
                 <th>
                     <p id="table">HOME</p>
@@ -72,41 +75,80 @@
                 <td><img src="images/lakers_mirror.png" alt="lakers" id="lakers" /></td>            
                 <td><img src="images/ghost.png" alt="ghost" id="ghost" /></td>
                 <td><img src="images/cat.png" alt="cat" id="cat" /></td>
-                <td><img src="images/bat.png" alt="bat" id="bat" /></td>
+            </tr>
+            <tr >
+                <td id="productNameAndPrice">Dream Catcher $125</td>   
+                <td id="productNameAndPrice">Lakers Basketball $60</td>
+                <td id="productNameAndPrice">Halloween Ghosts $25</td>
+                <td id="productNameAndPrice">Halloween Cat $25</td>
             </tr>
             <tr>
-                <td>Details</td>
-                <td>Details</td>
-                <td>Details</td>
-                <td>Details</td>
-                <td>Details</td>
+                <td> <span id="productInfoBox">PRODUCT INFO</span>
+                    <br> Outer Diameter: 13.5" 
+                    <br> Wood: Pine
+                    <br> Description: .....<br>
+                </td>
+                <td><span id="productInfoBox">PRODUCT INFO </span>
+                    <br> Outer Diameter: 13.5" 
+                    <br> Wood: Oak
+                    <br> Description: .....<br>
+                </td>
+                <td><span id="productInfoBox">PRODUCT INFO</span> 
+                    <br> Outer Diameter: 6.5" 
+                    <br> Wood: Pine
+                    <br> Description: .....<br>
+                </td>
+                <td><span id="productInfoBox">PRODUCT INFO </span>
+                    <br> Outer Diameter: 6.5" 
+                    <br> Wood: Pine
+                    <br> Description: .....<br>
+                </td>
+            </tr>
+            <tr id="add">
+                <td>ADD ITEM TO CART</td> 
+                <td></td> 
+                <td></td>
+                <td></td> 
             </tr>
             <tr>
-                <td>Add To Cart</td>
-                <td>Add To Cart</td>               
-                <td>Add To Cart</td>
-                <td>Add To Cart</td>
-                <td>Add To Cart</td>
-            </tr>
-            <tr>
-                <td>Item Count Box(es)</td>
-                <td>Item Count Box(es)</td>
-                <td>Item Count Box(es)</td>
-                <td>Item Count Box(es)</td>
-                <td>Item Count Box(es)</td>
+                <td>
+                    <button type="submit" id="addToCartButton" onclick="addItemToCart( )"> + </button>
+                    <!-- <button type="submit" id="itemCountButton"><p id="countBox"></p></button> -->
+                    <p id="itemCountButton"></p>
+                    <button type="submit" id="subtractFromCartButton" onclick="subtractFromCartButton( )"> - </button>
+                </td>
+                <td>
+                    <button type="submit" id="addToCartButton" onclick="addItemToCart( )"> + </button>
+                    <!-- <button type="submit" id="itemCountButton"><p id="countBox"></p></button> -->
+                    <p id="itemCountButton"></p>
+                    <button type="submit" id="subtractFromCartButton" onclick="subtractFromCartButton( )"> - </button>
+                </td>               
+                <td>
+                    <button type="submit" id="addToCartButton" onclick="addItemToCart( )"> + </button>
+                    <!-- <button type="submit" id="itemCountButton"><p id="countBox"></p></button> -->
+                    <p id="itemCountButton"></p>
+                    <button type="submit" id="subtractFromCartButton" onclick="subtractFromCartButton( )"> - </button>
+                </td>                
+                <td>
+                    <button type="submit" id="addToCartButton" onclick="addItemToCart( )"> + </button>
+                    <!-- <button type="submit" id="itemCountButton"><p id="countBox"></p></button> -->
+                    <p id="itemCountButton"></p>
+                    <button type="submit" id="subtractFromCartButton" onclick="subtractFromCartButton( )"> - </button>
+                </td>            
             </tr>
         </table>
         <br>
-        <table id="landingTable2">
-                <tr>
-                    <td>Mirror Pic</td>
+        <!-- <table id="landingTable2">
+            <tr>
+                <td>
+                    <img src="images/bat.png" alt="bat" id="bat" />
+                </td>
+                </td>
                     <td>Mirror Pic</td>            
-                    <td>Mirror Pic</td>
                     <td>Mirror Pic</td>
                     <td>Mirror Pic</td>
                 </tr>
                 <tr>
-                    <td>Details</td>
                     <td>Details</td>
                     <td>Details</td>
                     <td>Details</td>
@@ -117,47 +159,15 @@
                     <td>Add To Cart</td>               
                     <td>Add To Cart</td>
                     <td>Add To Cart</td>
-                    <td>Add To Cart</td>
                 </tr>
                 <tr>
                     <td>Item Count Box(es)</td>
                     <td>Item Count Box(es)</td>
                     <td>Item Count Box(es)</td>
                     <td>Item Count Box(es)</td>
-                    <td>Item Count Box(es)</td>
                 </tr>
             </table>
-            <br>
-            <table id="landingTable3">
-                    <tr>
-                        <td>Mirror Pic</td>
-                        <td>Mirror Pic</td>            
-                        <td>Mirror Pic</td>
-                        <td>Mirror Pic</td>
-                        <td>Mirror Pic</td>
-                    </tr>
-                    <tr>
-                        <td>Details</td>
-                        <td>Details</td>
-                        <td>Details</td>
-                        <td>Details</td>
-                        <td>Details</td>
-                    </tr>
-                    <tr>
-                        <td>Add To Cart</td>
-                        <td>Add To Cart</td>               
-                        <td>Add To Cart</td>
-                        <td>Add To Cart</td>
-                        <td>Add To Cart</td>
-                    </tr>
-                    <tr>
-                        <td>Item Count Box(es)</td>
-                        <td>Item Count Box(es)</td>
-                        <td>Item Count Box(es)</td>
-                        <td>Item Count Box(es)</td>
-                        <td>Item Count Box(es)</td>
-                    </tr>
-                </table>
+            <br> -->
     <!-- <th>
                 <a href="#EmailReceipt">Email Receipt</a>
             </th> -->

@@ -10,21 +10,9 @@ body {
     border: 1px black solid;
     outline: 2px aqua solid;
     font-size: 1rem;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     text-shadow: 1px 1px 1px black;
     align-content: center;
-}
-#SubmitButton {
-    width: 20%;
-    height: 60px;
-    font-size: 1rem;
-    background-color: black;
-    color: aqua;
-    border: 1px black solid;
-    outline: 2px aqua solid;
-    margin-right: 40%;
-    margin-left: 40%;
-    padding: 15px;
 }
 /* NAVIGATION BAR AT THE TOP OF THE PAGE */
 .topnav {
@@ -41,7 +29,7 @@ body {
     padding-right: 0px;
     margin-left: 100px;
     margin-right:100px;
-    margin-top: 5px;
+    margin-top: 25px;
     margin-bottom: 20px;
     column-width: 200px;
     column-gap: 100px;
@@ -67,19 +55,23 @@ body {
     background-color: aqua;
     color: black;
 }
+/* END OF NAVBAR SECTION */
+
+/* DIV ROW 2  IMAGES AND TITLE BOX */
 #myMirrorStoreHeader {
     width: 20%;
     height: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: auto;
+    margin-right: auto;
 }
+/* TEXT:  "MY MIRROR STORE" */
 h1 {
-    width: 60%;
+    width: 80%;
     height: auto;
-    margin-left: 15%;
-    margin-right: 25%;
+    margin-left: 7%;
+    margin-right: 13%;
     margin-top: 30px;
     margin-bottom: 15px;
     background-color: black;
@@ -88,17 +80,18 @@ h1 {
     text-align: center;
     padding: 25px;
     font-family: 'Walter Turncoat', cursive;
-    text-shadow: 2px 2px 2px violet;
     border: 1px aqua solid;
     outline: 2px black solid;
 }
+/* ALL PARAGRAPH'S GENERIC FORMATTING */
 p {
     color: aqua;
     font-size: 2rem;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 16px;
     font-family: 'Walter Turncoat', cursive;
     margin-bottom: 25px;
+    padding: 5px;
 }
 #leftSideLogo {
     width: 40%;
@@ -119,15 +112,29 @@ p {
     margin-top: 45px;
     position: relative;
 }
-/* !!CAREFUL....THIS MIRROR BELOW LANDING PAGE */
+/* HOME | PRODUCTS | MY CART */
+#table {
+    font-size: 1rem;
+    text-align: center;
+    vertical-align: auto;
+    text-decoration: underline;
+    height: 9px;
+    padding: 5px;
+}
+
+/* !!CAREFUL....THIS IS THE MIRROR BELOW THE 
+LANDING PAGE */
+
 /* AIR FORCE MIRROR AT TOP OF LANDING PAGE */
 #dreamcatcher1 {
     width: 10%;
     height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-/* MIRROR IN DETAILS PAGE */
+/* MIRROR IN PRODUCT BOX */
 #dreamcatcher2 {
-    width: 80%;
+    width: 60%;
     height: auto;
 }
 #lakers {
@@ -135,18 +142,19 @@ p {
     height: auto;
 }
 #ghost {
-    width: 80%;
+    width: 60%;
     height: auto;
 }
 #cat {
-    width: 80%;
+    width: 60%;
     height: auto;
 }
 #bat {
-    width: 80%;
+    width: 60%;
     height: auto;
 }
-#landingTable {
+/* FIRST MAIN PRODUCTS BOX */
+#landingTable1 {
     width: 90%;
     height: auto; 
     color: aqua;
@@ -158,14 +166,21 @@ p {
     background-color: black;  
     font-family: 'Walter Turncoat', cursive;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
-/* LANDING TABLE HEADER */
-#table {
-    font-size: 1rem;
-    text-align: center;
-    text-decoration: underline;
+/*  PRODUCT INFO BOX  */
+#productInfoBox {
+    width: 6%;
+    height: 30px;
+    border: 1px black solid;
+    outline: 1px aqua solid;
+    background-color: grey;
+    padding: 15px;
+    color: black;
+    text-shadow: 1px 1px 1px aqua;
+    margin-top: 5px;
 }
+/* FIRST PRODUCTS PAGE    FIRST SECTION OF MIRRORS */
 #landingTable2 {
     color: aqua;
     border: 1px aqua solid;
@@ -174,25 +189,80 @@ p {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25px;
     font-size: 1rem;
     background-color: black;  
     font-family: 'Walter Turncoat', cursive;
-    line-height: 150px;
+    line-height: 90px;  
     text-align: center;
     padding: 20px;
 }
-#landingTable3 {
+/* BOXES IN TABLE:   MIRROR NAME AND PRICE */
+#productNameAndPrice {
     color: aqua;
-    border: 1px aqua solid;
-    outline: 2px black solid;
-    width: 90%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1rem;
-    background-color: black;  
-    font-family: 'Walter Turncoat', cursive;
-    line-height: 150px;
-    text-align: center;
-    padding: 20px;
+    border: 0.2px aqua solid;
+    outline: 3px grey solid;
+    width: 20%;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    font-size: .8rem;
+    padding: 5px;
 }
+/* TEXT: "ADD ITEM TO CART" */
+#add {
+    color: violet;
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 0.9rem;
+    text-align: center;
+}
+/* TEXT:     "ADD ITEM TO CART" */
+#addToCartButton {
+    width: 12%;
+    height: auto;
+    font-size: 1.3rem;
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+    border: 1px black solid;
+    outline: 1px aqua solid;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+/* EMPTY ITEM COUNT BOX */
+#itemCountButton {
+    width: 10%;
+    height: 31px;
+    font-size: 0.8rem;
+    background-color: lightgray;
+    color: black;
+    border: 1px black solid;
+    outline: 1px aqua solid;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 24px;
+    padding: 4px;
+    vertical-align: middle;
+    display: inline-block;
+}
+/* DELETE ITEM FROM CART BUTTON */
+#subtractFromCartButton {
+    width: 12%;
+    height: auto;
+    font-size: 1.3rem;
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+    border: 1px black solid;
+    outline: 1px aqua solid;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
