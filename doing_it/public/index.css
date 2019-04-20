@@ -218,7 +218,7 @@ LANDING PAGE */
     text-align: center;
 }
 /* TEXT:     "ADD ITEM TO CART" */
-#addToCartButton {
+#addItemToCartButton {
     width: 12%;
     height: auto;
     font-size: 1.3rem;
