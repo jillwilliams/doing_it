@@ -16,7 +16,7 @@ body {
 }
 /* NAVIGATION BAR AT THE TOP OF THE PAGE */
 .topnav {
-    width: 80%;
+    width: 85%;
     height: auto;
     background-color: black;
     overflow: hidden;
@@ -24,47 +24,52 @@ body {
     border: 1px aqua solid;
     outline: 1px black solid;
     text-align: center;
-    font-size: 1.3rem;
-    padding-left: 70px;
-    padding-right: 0px;
-    margin-left: 100px;
-    margin-right:100px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    column-width: 200px;
-    column-gap: 100px;
-    text-align: center;
+    font-size: 1rem;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-left: 2%;
+    margin-right: 2%;
+    column-count: 4;
+    column-width: auto;
+    column-gap: 50px;
+    position: fixed;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
     float: left;
     color: aqua;
     font-family: 'Walter Turncoat', cursive;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: aqua;
     color: black;
 }
-/* Add a color to the active/current link */
+/* Add a color to the active/current link
 .topnav a.active {
     background-color: aqua;
     color: black;
-}
+} */
 /* END OF NAVBAR SECTION */
 
 /* DIV ROW 2  IMAGES AND TITLE BOX */
 #myMirrorStoreHeader {
-    width: 20%;
-    height: auto;
-    margin-top: 15px;
+    width: 25%;
+    height: 10%;
+    margin-top: 55px;
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 1rem;
 }
 /* TEXT:  "MY MIRROR STORE" */
 h1 {
@@ -72,11 +77,11 @@ h1 {
     height: auto;
     margin-left: 7%;
     margin-right: 13%;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 15px;
     background-color: black;
     color: aqua;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
     padding: 25px;
     font-family: 'Walter Turncoat', cursive;
@@ -86,7 +91,7 @@ h1 {
 /* ALL PARAGRAPH'S GENERIC FORMATTING */
 p {
     color: aqua;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
     margin-top: 16px;
     font-family: 'Walter Turncoat', cursive;
@@ -94,22 +99,22 @@ p {
     padding: 5px;
 }
 #leftSideLogo {
-    width: 40%;
+    width: 60%;
     height: auto;
     z-index: 1;
     margin-left: 30%;
     margin-right: 30%;
-    margin-top: 45px;
+    margin-top: 120px;
     position: relative;
 } 
 #rightSideLogo {
-    width: 40%;
+    width: 60%;
     height: auto;
     z-index: 1;
     float: right;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 45px;
+    margin-left: 15%;
+    margin-right: 25%;
+    margin-top: 118px;
     position: relative;
 }
 /* HOME | PRODUCTS | MY CART */
@@ -117,7 +122,7 @@ p {
     font-size: 1rem;
     text-align: center;
     vertical-align: auto;
-    text-decoration: underline;
+    text-decoration: none;
     height: 9px;
     padding: 5px;
 }
@@ -131,6 +136,8 @@ LANDING PAGE */
     height: auto;
     margin-top: 15px;
     margin-bottom: 15px;
+    z-index: 1;
+    position: relative;
 }
 /* MIRROR IN PRODUCT BOX */
 #dreamcatcher2 {
@@ -185,10 +192,11 @@ LANDING PAGE */
 #productInfoBox {
     width: 6%;
     height: 30px;
+    font-size: 0.8rem;
     border: 1px black solid;
     outline: 1px aqua solid;
     background-color: grey;
-    padding: 15px;
+    padding: 10px;
     color: black;
     text-shadow: 1px 1px 1px aqua;
     margin-top: 5px;
@@ -202,7 +210,7 @@ LANDING PAGE */
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 25px;
+    margin-top: 5px;
     font-size: 1rem;
     background-color: black;  
     font-family: 'Walter Turncoat', cursive;
@@ -232,8 +240,8 @@ LANDING PAGE */
 }
 /* TEXT:     "ADD ITEM TO CART" */
 #addItemToCart {
-    width: 12%;
-    height: auto;
+    width: 20%;
+    height: 50%;
     font-size: 1.3rem;
     background-color: lightgray;
     color: black;
@@ -245,11 +253,12 @@ LANDING PAGE */
     padding: 5px;
     vertical-align: middle;
     display: inline-block;
+    text-align: center;
 }
 /* EMPTY ITEM COUNT BOX */
 #itemCountBox {
-    width: 10%;
-    height: 31px;
+    width: 16%;
+    height: 35px;
     font-size: 0.8rem;
     background-color: lightgray;
     color: black;
@@ -261,11 +270,12 @@ LANDING PAGE */
     padding: 4px;
     vertical-align: middle;
     display: inline-block;
+    text-align: center;
 }
 /* DELETE ITEM FROM CART BUTTON */
 #subtractItemFromCart {
-    width: 12%;
-    height: auto;
+    width: 20%;
+    height: 50%;
     font-size: 1.3rem;
     background-color: lightgray;
     color: black;
@@ -277,5 +287,6 @@ LANDING PAGE */
     padding: 5px;
     vertical-align: middle;
     display: inline-block;
+    text-align: center;
 }
 
