@@ -142,17 +142,30 @@ LANDING PAGE */
     height: auto;
 }
 #ghost {
-    width: 60%;
+    width: 67%;
     height: auto;
 }
 #cat {
-    width: 60%;
+    width: 67%;
     height: auto;
 }
 #bat {
     width: 60%;
     height: auto;
 }
+#pumpkin {
+    width: 67%;
+    height: auto;
+}
+#military {
+    width: 67%;
+    height: auto;
+}
+#oregon {
+    width: 67%;
+    height: auto;
+}
+
 /* FIRST MAIN PRODUCTS BOX */
 #landingTable1 {
     width: 90%;
@@ -181,7 +194,7 @@ LANDING PAGE */
     margin-top: 5px;
 }
 /* FIRST PRODUCTS PAGE    FIRST SECTION OF MIRRORS */
-#landingTable2 {
+#landingTable2, #landingTable3 {
     color: aqua;
     border: 1px aqua solid;
     outline: 2px black solid;
