@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
-import Home from './components/Home/home_app';
+import Home from './components/Home/home';
+import ADDBUTTON from './components/AddButton/index'; 
 
-
-class App extends Component {
+class Home extends Component {
     render() {
         return (
             <h1>My Mirror Store</h1>
+            <ADDBUTTON />
         );
     };
 }
-Render.DOM 
+// Render.DOM render ;

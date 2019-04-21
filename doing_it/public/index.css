@@ -218,7 +218,7 @@ LANDING PAGE */
     text-align: center;
 }
 /* TEXT:     "ADD ITEM TO CART" */
-#addItemToCartButton {
+#addItemToCart {
     width: 12%;
     height: auto;
     font-size: 1.3rem;
@@ -234,7 +234,7 @@ LANDING PAGE */
     display: inline-block;
 }
 /* EMPTY ITEM COUNT BOX */
-#itemCountButton {
+#itemCountBox {
     width: 10%;
     height: 31px;
     font-size: 0.8rem;
@@ -250,7 +250,7 @@ LANDING PAGE */
     display: inline-block;
 }
 /* DELETE ITEM FROM CART BUTTON */
-#subtractFromCartButton {
+#subtractItemFromCart {
     width: 12%;
     height: auto;
     font-size: 1.3rem;

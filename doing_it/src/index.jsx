@@ -2,13 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/';
+import AddButton from './components/AddButton/index';
 
 
 
 
 
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+
+
+ReactDOM.render(<App/>, <addItemToCart/>, document.getElementById('root'));
 
 
 
